@@ -1365,3 +1365,9 @@ body {
 .japanese-footer .footer-menu a:hover {
     color: #dc3545;
 }
+.student-img-big {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the photo fills the area without stretching */
+    transition: transform 0.5s ease;
+}
