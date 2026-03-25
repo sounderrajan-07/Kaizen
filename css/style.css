@@ -1340,3 +1340,28 @@ body {
     object-fit: contain; /* Prevents the logo from stretching */
     transition: transform 0.3s ease;
 }
+/* Add to css/style.css */
+.japanese-footer {
+    background-color: #1a1a1a; /* Darker, more professional base */
+    color: #e0e0e0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.japanese-footer .footer-title {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border-left: 3px solid #dc3545; /* Clean red accent instead of multi-colors */
+    padding-left: 10px;
+}
+
+.japanese-footer .footer-menu a {
+    color: #b0b0b0;
+    transition: color 0.3s ease;
+    font-weight: 300;
+}
+
+.japanese-footer .footer-menu a:hover {
+    color: #dc3545;
+}
